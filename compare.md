@@ -3,7 +3,7 @@
 
 ## Topics
 - [How version control gets out-of-sync with the org?](#reasons)
-- [Compare 2 orgs metadata](#compare)
+- [Compare metadata of 2 Orgs](#compare)
 ------
 <a name='reasons'></a>
 ## What are the main reasons for the metadata in your version control becomes out-of-date with metadata in the Org?
