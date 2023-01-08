@@ -3,7 +3,8 @@
 
 ## What are the main reasons for the metadata in your version control becomes out-of-date with metadata in the Org
 - Obvious one is:  when users make direct changes to the Org and not committing back these changes into the version control
-    - If you remove for example, a custom field say (```Tree__c.quantity__c```) using the org UI, Salesforce correctly removes entries for this field in Profiles (for example), but this change has to be committed into version control. Otherwise that Profile in the version control will have a dangling field
+    - If you remove for example, a custom field say (```Tree__c.quantity__c```) using the org UI, Salesforce correctly removes entries for this field in Profiles (for example), but this change has to be committed into version control(using pull command). Otherwise that Profile in the version control will have a dangling field
+    ![source pull](img/source-pull-1.png)
     - Tools to find out the dangling fields
         - [Dangling Fields](https://github.com/mohan-chinnappan-n/cli-dx/blob/master/mdapi/dangling-fields.md)
 
