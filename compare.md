@@ -13,8 +13,12 @@
     ![source pull](img/source-pull-1.png)
     - Dangling fixed by this source:pull
     ![dangling gone](img/dangling-gone-1.png)
-    - Tools to find out the dangling fields
-        - [Dangling Fields](https://github.com/mohan-chinnappan-n/cli-dx/blob/master/mdapi/dangling-fields.md)
+    -----
+
+### Tools to find out the dangling fields
+- [Dangling Fields](https://github.com/mohan-chinnappan-n/cli-dx/blob/master/mdapi/dangling-fields.md)
+
+-----
 
 <a name='compare'></a>
 
