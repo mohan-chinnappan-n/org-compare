@@ -13,14 +13,15 @@
 
 - Login into two orgs using DX
 
+### First Org
+
 ```
 sfdx force:auth:web:login -r https://login.salesforce.com
 
 Successfully authorized mohan.chinnappan.n.sel@gmail.com with org ID 00D4x000007rxoGEAQ
 
 ```
-----
-
+### Second Org
 ```
 sfdx force:auth:web:login -r https://login.salesforce.com
 
@@ -54,13 +55,13 @@ cat package.xml
 
 ## Retrieve the metadata from both orgs
 
-- make sure two 2 folders create to store the retrieve results
-    - in our case se and se2
+- make sure to create two 2 folders to store the retrieve results
+    - in our case folders se and se2
 ```
 mkdir se se2
 ```
 
-### For first Org
+### Retrieve the metadata from the first Org (se) 
 
 ```
 sfdx force:mdapi:retrieve -k package.xml -u mohan.chinnappan.n.sel@gmail.com  -r se -z
@@ -71,7 +72,7 @@ Wrote retrieve zip to /Users/mchinnappan/org-compare/se/unpackaged.zip
 Extracted unpackaged.zip to: /Users/mchinnappan/org-compare/se/unpackaged
 ```
 
-### For second Org
+###  Retrieve the metadata from the second Org (se2)
 
 ```
 
@@ -85,7 +86,7 @@ Extracted unpackaged.zip to: /Users/mchinnappan/org-compare/se2/unpackaged
 ```
 
 
-## Install git-diff in your machine
+## Install git-diff in your machine if you do not have it
 
 - For macOs
 
@@ -99,6 +100,8 @@ brew install git-diff
 ```
 delta --side-by-side -- se/unpackaged/unpackaged/profiles/Admin.profile se2/unpackaged/unpackaged/profiles/Admin.profile 
 ```
+
+
 ![demo](img/screenRecording.webm.gif)
 
 
