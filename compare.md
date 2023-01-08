@@ -14,7 +14,7 @@
     - User deletes the ```tree__c.quantity__c``` in Org UI
     ![qty-in](img/qty-out.png)
    ---- 
-   - Dangling filed in Profile
+   - Dangling field in Profile
     ![dangling](img/dangling-1.png)
    - Perform source:pull
     ![source pull](img/source-pull-1.png)
