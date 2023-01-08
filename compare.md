@@ -4,6 +4,7 @@
 ## Topics
 - [How version control gets out-of-sync with the org?](#reasons)
 - [Compare metadata of 2 Orgs](#compare)
+- [How to delete components using DX](#delete)
 ------
 <a name='reasons'></a>
 ## What are the main reasons for the metadata in your version control becomes out-of-sync with metadata in the Org?
@@ -133,5 +134,32 @@ delta --side-by-side se/unpackaged/unpackaged/profiles/Admin.profile se2/unpacka
 
 
 ![demo](img/screenRecording.webm.gif)
+
+<a name='delete'></a>
+## How to delete components using DX
+
+![delete-1](img/delete-1.png)
+
+
+```
+
+sfdx force:source:deploy --manifest manifest/deployPackage.xml  --postdestructivechanges manifest/destructiveChangesPost.xml  -c --verbose
+Deploying v56.0 metadata to test-fhima9ukkkrd@example.com using the v56.0 SOAP API
+Deploy ID: 0Af8F00000KjIiaSAF
+
+=== Deleted Source
+
+ FULL NAME TYPE         PROJECT PATH                                                   
+ ───────── ──────────── ────────────────────────────────────────────────────────────── 
+ tree__c   CustomObject force-app/main/default/objects/tree__c/tree__c.object-meta.xml 
+Successfully validated the deployment.
+
+
+```
+
+ 
+
+
+![delete-2](img/delete-2.png)
 
 
