@@ -84,10 +84,16 @@ Wrote retrieve zip to /Users/mchinnappan/org-compare/se2/unpackaged.zip
 Extracted unpackaged.zip to: /Users/mchinnappan/org-compare/se2/unpackaged
 
 ```
+## using  vimdiff to compare 
 
+```
+vimdiff  se/unpackaged/unpackaged/profiles/Admin.profile se2/unpackaged/unpackaged/profiles/Admin.profile 
 
-## Install git-diff in your machine if you do not have it
+```
+![vimdiff demo](img/vimdiff-1.png)
 
+## Using git-diff
+### install git-diff in your machine if you do not have it
 - For macOs
 
 ```
@@ -98,10 +104,16 @@ brew install git-diff
 ## Use git-diff (delta) to find the diffs
 
 ```
-delta --side-by-side -- se/unpackaged/unpackaged/profiles/Admin.profile se2/unpackaged/unpackaged/profiles/Admin.profile 
+delta --side-by-side se/unpackaged/unpackaged/profiles/Admin.profile se2/unpackaged/unpackaged/profiles/Admin.profile 
 ```
 
 
 ![demo](img/screenRecording.webm.gif)
 
 
+## using  vimdiff to compare 
+
+```
+vimdiff  se/unpackaged/unpackaged/profiles/Admin.profile se2/unpackaged/unpackaged/profiles/Admin.profile 
+
+ ```
