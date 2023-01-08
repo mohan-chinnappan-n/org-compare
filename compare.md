@@ -84,10 +84,14 @@ Wrote retrieve zip to /Users/mchinnappan/org-compare/se2/unpackaged.zip
 Extracted unpackaged.zip to: /Users/mchinnappan/org-compare/se2/unpackaged
 
 ```
-## using  vimdiff to compare 
+## Using vim -d  OR  vimdiff to compare 
 
 ```
 vimdiff  se/unpackaged/unpackaged/profiles/Admin.profile se2/unpackaged/unpackaged/profiles/Admin.profile 
+
+OR
+
+vim -d  se/unpackaged/unpackaged/profiles/Admin.profile se2/unpackaged/unpackaged/profiles/Admin.profile
 
 ```
 ![vimdiff demo](img/vimdiff-1.png)
