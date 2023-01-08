@@ -11,7 +11,7 @@
     - If you remove for example, a custom field say (```tree__c.quantity__c```) using the org UI, Salesforce correctly removes entries for this field in Profiles (for example), but this change has to be committed into version control(using pull command). Otherwise that Profile in the version control will have a dangling field
 
     ![qty-in](img/qty-in-1.png)
-    - User deletes the ```tree__c.quantity__c``` 
+    - User deletes the ```tree__c.quantity__c``` in Org UI
     ![qty-in](img/qty-out.png)
    ---- 
    - Dangling filed in Profile
