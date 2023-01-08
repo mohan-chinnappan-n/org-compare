@@ -1,6 +1,11 @@
 
 # How to compare 2 Salesforce Orgs metadata using DX and git-diff (delta)?
 
+## Topics
+- [How version control gets out-of-sync with the org?](#reasons)
+- [Compare 2 orgs metadata](#compare)
+------
+<a name='reasons'></a>
 ## What are the main reasons for the metadata in your version control becomes out-of-date with metadata in the Org?
 - Obvious one is:  when users make direct changes to the Org and not committing back these changes into the version control
     - If you remove for example, a custom field say (```tree__c.quantity__c```) using the org UI, Salesforce correctly removes entries for this field in Profiles (for example), but this change has to be committed into version control(using pull command). Otherwise that Profile in the version control will have a dangling field
@@ -11,6 +16,7 @@
     - Tools to find out the dangling fields
         - [Dangling Fields](https://github.com/mohan-chinnappan-n/cli-dx/blob/master/mdapi/dangling-fields.md)
 
+<a name='compare'></a>
 
 ## Steps in comparing metadata of two orgs
 
