@@ -5,6 +5,7 @@
 - [How version control gets out-of-sync with the org?](#reasons)
 - [How to compare metadata of 2 Orgs](#compare)
 - [How to delete components using DX?](#delete)
+- [How to do Delta deployments using DX](https://github.com/mohan-chinnappan-n/delta-deployment/blob/main/delta.md)
 ------
 <a name='reasons'></a>
 ## What are the main reasons for the metadata in your version control becomes out-of-sync with metadata in the Org?
