@@ -1,5 +1,5 @@
 
-# How to compare 2 Salesforce Orgs metadata using DX and git-diff (delta)?
+# How to compare 2 Salesforce Orgs metadata using DX and view the delta?
 
 ## Topics
 - [How version control gets out-of-sync with the org?](#reasons)
