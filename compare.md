@@ -115,9 +115,3 @@ delta --side-by-side se/unpackaged/unpackaged/profiles/Admin.profile se2/unpacka
 ![demo](img/screenRecording.webm.gif)
 
 
-## using  vimdiff to compare 
-
-```
-vimdiff  se/unpackaged/unpackaged/profiles/Admin.profile se2/unpackaged/unpackaged/profiles/Admin.profile 
-
- ```
