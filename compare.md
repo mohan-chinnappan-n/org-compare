@@ -107,7 +107,7 @@ Extracted unpackaged.zip to: /Users/mchinnappan/org-compare/se2/unpackaged
 
 ```
 
-## Using web based Simple Diff App
+## Using web based Simple Diff App to compare
 
 - [Simple Diff App](https://mohan-chinnappan-n5.github.io/delta/diff.html)
 
