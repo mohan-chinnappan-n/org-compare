@@ -106,6 +106,12 @@ Wrote retrieve zip to /Users/mchinnappan/org-compare/se2/unpackaged.zip
 Extracted unpackaged.zip to: /Users/mchinnappan/org-compare/se2/unpackaged
 
 ```
+
+## Using web based Simple Diff App
+
+- [Simple Diff App](https://mohan-chinnappan-n5.github.io/delta/diff.html)
+
+[![Simple Diff](img/simpleDiff-1.png)](https://mohan-chinnappan-n5.github.io/delta/diff.html)
 ## Using vim -d  OR  vimdiff to compare 
 
 ```
