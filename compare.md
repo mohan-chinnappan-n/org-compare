@@ -6,6 +6,9 @@
 - [How to compare metadata of 2 Orgs](#compare)
 - [How to delete components using DX?](#delete)
 - [How to do Delta deployments using DX](https://github.com/mohan-chinnappan-n/delta-deployment/blob/main/delta.md)
+
+- [Tool to view the Metadata Dependency](https://github.com/mohan-chinnappan-n/cli-dx/blob/master/mdapi/md/md.md)
+- [Tool to view Profile, Permset and Package.xml](https://github.com/mohan-chinnappan-n/cli-dx/blob/master/mdapi/xml/reports.md)
 ------
 <a name='reasons'></a>
 ## What are the main reasons for the metadata in your version control becomes out-of-sync with metadata in the Org?
